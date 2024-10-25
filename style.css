@@ -24,3 +24,22 @@ header{
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s;
 }
+.dropdown-content li {
+    width: 200px;
+}
+
+.dropdown-content li a {
+    display: block;
+    padding: 10px;
+    color: rgb(60, 60, 77);
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

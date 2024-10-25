@@ -43,3 +43,6 @@ header{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.h1{
+    justify-content: center;
+}

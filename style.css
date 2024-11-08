@@ -1,50 +1,95 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-header{
-    background-color: #091057;
-    color: white;
-    width: 100%;
-    padding: 20px;
-}
-.menunavg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.menu a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
-}
-.dropdown-content li {
-    width: 200px;
+/*corpo*/
+
+body{
+
+   margin: 0;
+   padding: 0;
+   font-family: arial, sans-serif;
 }
 
-.dropdown-content li a {
-    display: block;
-    padding: 10px;
-    color: rgb(60, 60, 77);
-    text-decoration: none;
+/* header */
+
+.header{
+
+   justify-self: center;
+   display: flex;
+   margin: 0;
+   padding: 15px 20px ;
+   background-color: rgb(255, 255, 255);
 }
 
-.dropdown-content li a:hover {
-    background-color: lightblue;
-    color: white;
+.title{
+
+   color: rgb(164, 68, 209);
+   height: 200px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+/*textos gerais*/
+.p{
+   color: #000000;
+   height: 20px;
 }
-.h1{
-    justify-content: center;
-    display: flex;
 
+.nav{
+
+   display: flex;
+   background-color: rgb(255, 255, 255);
+   list-style: none;
+   padding: 0;
+}
+
+.inf{
+
+   align-items: start;
+   flex-direction: row-reverse;
+
+}
+
+.main{
+
+   display: flex;
+   padding: 20;
+
+}
+
+.home{
+
+   margin: 0;
+   display: flex;
+
+}
+
+/*subtitulos gerais*/
+.h2{
+   color: #000000;
+   align-items: center;
+
+}
+
+.sobre{
+
+   margin: 0;
+   display: flex;
+}
+
+.servicos{
+   margin: 0;
+   display: flex;
+}
+
+.contato{
+   margin: 0;
+   display: flex;
+}
+
+/* rodape */
+.rodape{
+   display: flex;
+   background-color: #000000;
+   padding: 20px 0px;
+   justify-content: center;
+}
+
+.pr{
+   color: rgb(255, 255, 255);
 }
